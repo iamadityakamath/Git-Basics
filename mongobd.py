@@ -1,5 +1,5 @@
 import pymongo
-client = pymongo.MongoClient("mongodb+srv://Adk1411:Aditya123@ineuron.ppsex.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://<username>:<password>@ineuron.ppsex.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
 d = {
     "name":"sudhanshu",
